@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="file.js" defer></script>
+</head>
+<body>
+
+  <main class="container">
+    <h1>GitHub User Finder</h1>
+    
+    <div class="search-section">
+      <label for="user"></label>
+      <input 
+        type="text" 
+        id="user" 
+        name="user" 
+        placeholder="e.g. torvalds" 
+        aria-label="GitHub Username"
+      />
+      <button id="find">Find User</button>
+    </div>
+
+    <h2>Output:</h2>
+
+    <div id="output" hidden class="user-card">
+      <img id="Avatar" class="avatar" alt="User avatar" />
+      <div class="user-info">
+        <p><strong>Username:</strong> <span id="Username"></span></p>
+        <p><strong>Name:</strong> <span id="Name"></span></p>
+        <p><strong>Bio:</strong> <span id="Bio"></span></p>
+        <p><strong>Public Repos:</strong> <span id="repos"></span></p>
+        <p>
+          <a id="profileLink" href="#" target="_blank" rel="noopener noreferrer">
+            View GitHub Profile
+          </a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>

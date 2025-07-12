@@ -1,0 +1,119 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: aliceblue;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Main Heading */
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 200px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Input Field */
+input {
+  height: 50px;
+  width: 300px;
+  position: absolute;
+  left: 200px;
+  top: 28%;
+  border-radius: 12px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Button */
+button {
+  position: absolute;
+  left: 430px;
+  top: 35%;
+  height: 50px;
+  width: 100px;
+  background-color: violet;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #c769d6;
+}
+
+/* Subheading */
+h2 {
+  position: absolute;
+  top: 40%;
+  left: 200px;
+  font-size: 22px;
+  color: #444;
+}
+
+/* Output Container */
+#output {
+  position: absolute;
+  top: 45%;
+  left: 200px;
+  width: 450px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Avatar Image */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+/* User Info Section */
+.user-info {
+  flex: 1;
+}
+
+.user-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: #fff4f4;
+  color: red;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
